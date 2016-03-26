@@ -5,7 +5,11 @@ describe Mygem do
     expect(Mygem::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'capitazes the strings' do
+    expect("hello".capitalizer).to eq("     Hello     ")
+  end
+
+  it 'moves the strings 5 spaces to the center' do
+    expect("hello".capitalizer).to eq("     Hello     ")
   end
 end
