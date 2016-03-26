@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Just trying.}
   spec.description   = %q{An experimental gem invironment.}
-  spec.homepage      = "mygem.git"
-  spec.license       = "MIT"
+  spec.homepage      = "https://katmryc.com"
+  spec.license       = "none"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
